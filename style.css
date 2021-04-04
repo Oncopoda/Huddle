@@ -1,0 +1,46 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+}
+
+#bckgrnd img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+   
+    
+}
+
+#logo img {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    z-index: 5;
+}
+
+picture {
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    z-index: 4;
+}
+
+aside {
+    float: right;
+    padding-left: 80px;
+    width: 400px;
+    color: white
+}
+
+button {
+    color: purple;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color:hsl(300, 69%, 71%);
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
